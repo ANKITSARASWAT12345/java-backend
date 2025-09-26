@@ -33,6 +33,9 @@ class AdvanceFeature extends Features{
      }
 }
 
+//We can not create the object of an abstract class, if we want , first we need to extend that class into another class and then make object of that class
+
+
 public class Demo {
       public static void main(String[] args) {
         // Features obj=new Features();
