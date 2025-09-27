@@ -34,7 +34,7 @@ interface  A{
 
 class Demo{
     public static void main(String[] args) {
-         A obj=(int num)-> {
+         A obj=( num)-> {
             System.out.println("this is implementation of Lambda expression in Interface: "+num);
          };
          obj.show(5);
