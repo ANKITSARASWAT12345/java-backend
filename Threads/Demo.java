@@ -75,8 +75,8 @@ class B extends Thread{
 class Demo{
     public static void main(String[] args) {
         A obj1=new A();
-        B obj2=new B();
+        B obj3=new B();
         obj1.start();
-        obj2.start();
+        obj3.start();
     }
 }
