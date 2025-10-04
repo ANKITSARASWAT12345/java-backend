@@ -9,6 +9,7 @@ public class Demo {
         System.out.println(s1==s2);
         System.out.println(s1.equals(s2));
         System.out.println("hello from my side");
-        
+        System.out.println("Tommarow we will complte interface and threads");
+
     }
 }
