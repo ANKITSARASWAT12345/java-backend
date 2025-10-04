@@ -7,5 +7,6 @@ public class Demo {
         String s1="ankit";
         String s2="sharma";
         System.out.println(s1==s2);
+        System.out.println(s1.equals(s2));
     }
 }
