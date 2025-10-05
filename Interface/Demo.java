@@ -1,15 +1,39 @@
 package Interface;
 
+/*abstract class A{
+    public abstract void show();
+}
+
+
 public class Demo {
     public static void main(String[] args) {
-        System.out.println("hii");
-        System.out.println("hello");
-        String s1="ankit";
-        String s2="sharma";
-        System.out.println(s1==s2);
-        System.out.println(s1.equals(s2));
-        System.out.println("hello from my side");
-        System.out.println("Tommarow we will complte interface and threads");
+       A obj=new A(){
+          public void show(){
+            System.out.println("i am in A's inner class");
+          }         
+       };
+       obj.show();
 
+    }
+}
+*/
+
+
+class Sde{
+    public void job(){
+        System.out.println("your job is to write algorithms");
+    }
+}
+
+class Tester{
+    public void job(){
+        System.out.println("your job is to test the algorithms");
+    }
+}
+
+class Demo{
+    public static void main(String[] args) {
+        Sde obj=new Sde();
+        obj.job();
     }
 }
