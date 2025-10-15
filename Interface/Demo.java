@@ -45,7 +45,7 @@ class Demo{
 //interface- interface---> extends
 
 
- interface A extends X {
+ /*interface A extends X {
 
     int a=9;  //Methods in Interface are by default Final and Static
    
@@ -80,4 +80,37 @@ class Demo{
         obj.config();
         obj.eat();
     }
+}*/
+
+
+
+//Functional Interface-   used with lambda expressions
+
+/*@FunctionalInterface
+interface A{
+    public void show();
+}
+
+public class Demo {
+
+     public static void main(String[] args) {
+        A obj=()->System.out.println("hello");
+        obj.show();
+     }
+}*/
+
+
+
+@FunctionalInterface
+interface A{
+    public int show(int i);
+}
+
+public class Demo {
+
+     public static void main(String[] args) {
+        A obj=(int a)-> a;
+        int res=obj.show(5);
+        System.out.println(res);
+     }
 }
