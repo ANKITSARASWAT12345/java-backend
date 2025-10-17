@@ -8,7 +8,7 @@ public class Demo {
         int arr[]=new int[5];
         String s=null;
         try{
-        j=29/i;
+        j=24/i;
         if(j==0){
             throw new Exception("");
         }
