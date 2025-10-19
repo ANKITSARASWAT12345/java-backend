@@ -8,7 +8,7 @@ public class Demo {
         int arr[]=new int[5];
         String s=null;
         try{
-        j=26/i;
+        j=25/i;
 
          
 
