@@ -8,7 +8,7 @@ public class Demo {
         int arr[]=new int[5];
         String s=null;
         try{
-        j=25/i;
+        j=21/i;
 
          
 
@@ -22,7 +22,7 @@ public class Demo {
             System.out.println("arthmetic exception: "+e);
         }
         catch(ArrayIndexOutOfBoundsException e){
-        System.out.println("index out of bond exception: "+e);
+        System.out.println("index out of bond exception: "+e); 
 
         }
         catch(Exception e){
