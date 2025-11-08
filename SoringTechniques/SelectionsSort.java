@@ -2,7 +2,7 @@
 
 public class SelectionsSort {
     public static void main(String[] args) {
-        int arr[]={6,3,9,1,7,10,5};
+        int arr[]={6,3,9,1,7,10,5,9};
         int n=arr.length;
 
         System.out.println("Array before sorting");
